@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap" rel="stylesheet">
+    <meta name="description" content="A web application to convert youtube short URLs to browser URLs">
+    <meta name="keywords" content="Youtube, Youtube Shorts, converter, shortConvert, youtube short converter, youtube shortconverter">
+    <meta name="author" content="Boahs">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>shortConvert</title>
+</head>
+<body>
+    <section class="main-container">
+        <section class="main-header">
+            <h1>shortConvert</h1>
+            <h2>A URL convert tool to change youtube short URLs to browser URLs</h2>
+            <section class="inputs-container">
+                <section class="input-flex">
+                    <label for="name">Enter your youtube shorts URLs:</label>
+                    <div class="input-urlContainer" id="urlContainer">
+                        <input type="text" class="youtubeURL" size="50" placeholder="youtube short url">
+                    </div>
+                </section>
+                <section class="input-flex">
+                    <label for="name">Result youtube browser URLs:</label>
+                    <div class="input-button-container" id="newResultElements">
+                        <div class="input-container-flex">
+                            <input type="text" class="resultURL" size="40" placeholder="converted url will appear here" readonly disabled>                        
+                            <button class="buttonCopy" onclick="copyURL(this)">Copy</button>
+                            <button class="buttonGoto" onclick="goToURL(this)">Go to URL</button>                        
+                        </div>
+                    </div>
+                    
+                </section>
+            </section>
+            <div class="buttons-container">
+                <button class='buttonPlus' type="button" onclick="addURLInput()">+
+                <button class='buttonConvert' type="button" value="url" onclick="urlTransform()">Convert</button>
+            </div>
+        </section>
+        
+    </section>
+</body>
+</html>

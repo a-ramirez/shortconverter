@@ -1,0 +1,151 @@
+body{
+    text-align: center;
+    background-color: #121212;
+    font-family: "Cascadia Mono", sans-serif;
+    font-optical-sizing: auto;
+   
+}
+ 
+.headDescription{
+    font-family: youtube-sans-bold;
+    color: white;
+}
+
+button {    
+    border: none;
+    color: white;
+    /* padding: 20px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    /* margin: 4px 2px; */
+    font-family: "Cascadia Mono", sans-serif;
+  }
+
+  .buttonConvert {
+    background-color: #0066FF;
+    border-radius: 5px;
+    padding: 8px 25px;
+    font-size: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+   
+  }
+
+  .buttonConvert:hover {
+    opacity: 1;
+    background-color: #3a3a3a;
+    
+  }
+  
+  .button1:active{
+    background-color: #00FF00;
+    border: 1px #000000 solid;
+  }
+
+  .buttonPlus {
+    background-color: #0066FF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .buttonPlus:hover {
+    background-color: #0052CC;
+  }
+
+  .buttonCopy, .buttonGoto {
+    background-color: #00AA00;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .buttonCopy:hover, .buttonGoto:hover {
+    background-color: #008800;
+  }
+
+  .buttonDelete {
+    background-color: #CC0000;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .buttonDelete:hover {
+    background-color: #990000;
+  }
+
+  .resultInput {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #444;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .resultBox {
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 3px solid #00FF00;
+  }
+
+  .main-container {
+    color: white;
+  }
+  .inputs-container {
+    display: flex; 
+    width: 100%;   
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    color: white;
+    gap: 30px;
+    
+  }
+  .input-urlContainer  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    
+  }
+
+  .input-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .input-container-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .youtubeURL, .resultURL {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #444;
+    padding: 12px;
+    border-radius: 5px;
+  }
+
+  .buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
